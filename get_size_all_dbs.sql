@@ -1,3 +1,7 @@
+USE MASTER
+go
+
+
 IF OBJECT_ID('tempdb.dbo.#storage') IS NOT NULL
     DROP TABLE #storage
 
