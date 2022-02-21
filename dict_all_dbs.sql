@@ -1,3 +1,6 @@
+USE MASTER
+go
+
 IF OBJECT_ID('tempdb.dbo.#dict') IS NOT NULL 
 DROP 
   TABLE #dict
